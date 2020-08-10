@@ -39,30 +39,29 @@ Now For Manual Testing  <br />
 **Just Hit Url** = "http://127.0.0.1:8000/payment/" with POST Method using API testing Software:<br />
 Payload = <br />
     {
-    "amount": "Any Integer",<br />
-    "currency": Any from  ["USD","INR"],<br />
-    "paytype": Any from ["debitcard", "creditcard"],<br />
-    "card":{<br />
-        "number": "Any number from Register Card",<br />
-        "expirationMonth": "Any month w.r.t Card",<br />
-        "expirationYear": "Any Year w.r.t Card",<br />
-        "cvv": "CVV w.r.t Card"<br />
-    }<br />
-
-    }<br />
+        "amount": "Any Integer",<br />
+        "currency": Any from  ["USD","INR"],<br />
+        "paytype": Any from ["debitcard", "creditcard"],<br />
+        "card":{<br />
+            "number": "Any number from Register Card",<br />
+            "expirationMonth": "Any month w.r.t Card",<br />
+            "expirationYear": "Any Year w.r.t Card",<br />
+            "cvv": "CVV w.r.t Card"<br />
+        }<br />
+    }
+    
 Payload Example = <br />
     {
-    "amount": "1244",<br />
-    "currency": "INR",<br />
-    "paytype": "debitcard",<br />
-    "card":{<br />
-        "number": "4111111111112111",<br />
-        "expirationMonth": "12",<br />
-        "expirationYear": "2025",<br />
-        "cvv": "104"<br />
+        "amount": "1244",<br />
+        "currency": "INR",<br />
+        "paytype": "debitcard",<br />
+        "card":{<br />
+            "number": "4111111111112111",<br />
+            "expirationMonth": "12",<br />
+            "expirationYear": "2025",<br />
+            "cvv": "104"<br />
     }<br />
-    
-    }<br />
+    }
 
 
 **Just Hit Url** = "http://127.0.0.1:8000/payment/get/" with GET Method using API testing Software: <br />
