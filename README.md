@@ -1,4 +1,5 @@
-NWNPayment
+# Welcome to NWNPayment
+
 Here I Have Tried to Create a Payment Gateway With Valid Inputs like the Following
 amount Should be Integer
 currency should present in constant.py currency_list = ["USD","INR"]
@@ -14,8 +15,8 @@ Card expiry cvv it's length should be 3 Further Validation Is done by our code
 
 So Let's Start
 
+# Getting Started
 
-Getting Started
 $ git clone 
 $ source nwnpaymentgateway/bin/activate
 $ cd nwnpaymentgateway
@@ -24,15 +25,17 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
 
-How to Use:
-Just Hit Url = "http://127.0.0.1:8000/admin/pay/cards/add/" in any Browser
+
+## How to Use:
+
+**Just Hit Url** = "http://127.0.0.1:8000/admin/pay/cards/add/" in any Browser
 Username = "prince"
 Passord = "9653"
 Add the cards
 
 
 Now For Manual Testing 
-Just Hit Url = "http://127.0.0.1:8000/payment/" with POST Method using API testing Software:
+**Just Hit Url** = "http://127.0.0.1:8000/payment/" with POST Method using API testing Software:
 Payload = 
     {
     "amount": "Any INteger",
@@ -61,12 +64,13 @@ Payload Example =
     }
 
 
-Just Hit Url = "http://127.0.0.1:8000/payment/get/" with GET Method using API testing Software:
+**Just Hit Url** = "http://127.0.0.1:8000/payment/get/" with GET Method using API testing Software:
 
 from above url all Transaction details will be visible
 
-Running the tests
+## Running the tests
+
 $ python mange.py test 
 
-Authors
+## Authors
 Prince Agarwal
