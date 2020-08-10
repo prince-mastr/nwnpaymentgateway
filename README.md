@@ -1,11 +1,11 @@
 # Welcome to NWNPayment
 
-Here I Have Tried to Create a Payment Gateway With Valid Inputs like the Following
-amount Should be Integer
-currency should present in constant.py currency_list = ["USD","INR"]
-at place of "type" I Used "paytype"
-paytype should be either "creditcard" or "debitcard"
-but can be added by adding to variable in list constant.py payment_method = ["debitcard", "creditcard"]
+Here I Have Tried to Create a Payment Gateway With Valid Inputs like the Following <br />
+amount Should be Integer<br />
+currency should present in constant.py currency_list = ["USD","INR"] <br />
+at place of "type" I Used "paytype" <br />
+paytype should be either "creditcard" or "debitcard" <br />
+but can be added by adding to variable in list constant.py payment_method = ["debitcard", "creditcard"] <br />
 
 Futher variable are:
 Card number it's Length should 16 Further Validation Is done by our code
