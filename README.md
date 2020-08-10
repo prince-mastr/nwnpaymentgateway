@@ -72,5 +72,10 @@ from above url all Transaction details will be visible <br />
 
 $ python mange.py test <br />
 
+## Aplllication I already hosted on Heroku For convince <br />
+url = https://nwnpaymentgateway.herokuapp.com/payment/
+
+$ python mange.py test <br />
+
 ## Authors <br />
 Prince Agarwal 
