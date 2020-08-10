@@ -17,8 +17,8 @@ So Let's Start
 
 Getting Started
 $ git clone 
-$ source nwnpayment/bin/activate
-$ cd nwnpayment
+$ source nwnpaymentgateway/bin/activate
+$ cd nwnpaymentgateway
 $ pip install -r requirements.txt
 $ python manage.py makemigrations
 $ python manage.py migrate
